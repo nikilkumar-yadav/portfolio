@@ -92,7 +92,7 @@ if (contactForm) {
 
         try {
 
-           const response = await fetch("http://localhost:5000/api/contact", {
+          fetch("https://portfolio-atur.onrender.com/api/contact", {
                 method: "POST",
 
                 headers: {
